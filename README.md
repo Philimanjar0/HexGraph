@@ -1,8 +1,11 @@
 # HexGraph
-Lua class representation of a bi-graph with hexagonal neighbors.
+Lua class representation of a bi-graph with hexagonal neighbors. Created to be primarily used to represent the tiles of a board game.
 
 # Usage
-`local Graph = require('HexGraph')`
+cd into your project
+`git clone https://github.com/pbabell/HexGraph.git`
+at the top of the file where you would like to use a HexGraph
+`local Graph = require('HexGraph.HexGraph')`
 
 # Features
 This graph class maintains a few core features: adding nodes, removing nodes, getting neighbors.
